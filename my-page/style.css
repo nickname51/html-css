@@ -1,0 +1,77 @@
+*{
+    text-decoration: none;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:  0px 1px 1px #93BFB7;
+}
+ body {
+    background-image: linear-gradient( to bottom, #2D3E40 ,#387373 , #93BFB7);
+ }
+ a {
+    color: #a5ada8;
+    font-family:'Courier New', Courier, monospace;
+    
+ }
+ ul {
+    padding-right: 900px;
+    padding-left: 10px;
+    margin-bottom: 1%;
+    margin-right: 400px;
+ }
+.au{
+    padding-bottom: 0%;
+    margin-right: 800px; 
+  }
+  audio::-webkit-media-controls-panel{
+    background-color: #97A6A0;
+    
+  }
+  audio::-webkit-media-controls-mute-button{
+    background-color: #becec7;
+    border-radius: 100px;
+  }
+  audio::-webkit-media-controls-play-button{
+    background-color: #b9c9c3;
+    border-radius: 100px;
+  }
+  audio::-webkit-media-controls-timeline-container{
+    background-color: #b7c7c1;
+  }
+  audio::-webkit-media-controls-current-time-display{
+    background-color: #8a9792;
+  }
+  audio::-webkit-media-controls-time-remaining-display{
+    background-color:  #97A6A0;
+  }
+  audio::-webkit-media-controls-timeline{
+    background-color:  #97A6A0 ;
+  }
+  audio::-webkit-media-controls-volume-slider-container{
+    background-color:#2D3E40;
+  }
+  audio::-webkit-media-controls-volume-slider{
+    background-color: #97A6A0;
+  }
+  audio::-webkit-media-controls-seek-back-button{
+    background-color:  #d9eee5;
+  }
+  audio::-webkit-media-controls-seek-forward-button{
+    background-color: #97A6A0;
+  }
+  audio::-webkit-media-controls-fullscreen-button{
+    background-color: #97A6A0;
+  }
+  audio::-webkit-media-controls-rewind-button{
+    background-color: #97A6A0;
+  }
+  audio::-webkit-media-controls-return-to-realtime-button{
+    background-color: #97A6A0;
+  }
+  audio::-webkit-media-controls-toggle-closed-captions-button {
+    background-color:  #97A6A0;
+  }
+
