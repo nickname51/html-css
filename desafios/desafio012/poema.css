@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+main{
+    font-family: 'itim';
+    margin: auto;
+    font-size: 1.3em; 
+   
+    
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 50px 30px 50px ;
+    margin: -10px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 1em; 
+    
+    
+}
+h1::first-letter {
+    font-size: 3em;
+    
+}
+h1 {
+   
+}
+header > p {
+    font-size: 0.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+  
+}
+header > p > span {
+    color: gray;
+}
+#d1 {
+    background-image: url('pacote-d012/imagens/background002.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+.d01 {
+    background-color: rgba(0, 0, 0, 0.952);
+}
