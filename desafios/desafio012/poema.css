@@ -2,14 +2,20 @@
 
 
 body {
-  text-rendering: auto;
+  margin: auto;
+  height: auto;
+  
+  
+  
 }
 main{
     font-family: 'itim';
     margin: auto;
-    font-size: 1.3em; 
-   
+    font-size: 1.8em; 
+    position: relative;
+    line-height: 1.5em;
     
+
 }
 header {
     background-color: black;
@@ -23,9 +29,11 @@ header {
     
 }
 h1::first-letter {
-    font-size: 3em;
+    font-size: 2.6em;
     
 }
+
+
 
 header > p {
     font-size: 0.8em;
@@ -38,11 +46,47 @@ header > p > span {
     color: gray;
 }
 #d1 {
-    background-image: url('pacote-d012/imagens/background002.jpg');
-    background-position: center center;
+    background-image: url('pacote-d012/imagens/background001.jpg');
     background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 2px -3px 100px 4px black;
+}
+#d2 {
+    background-image: url('pacote-d012/imagens/background002.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset -7px -5px 100px 7px black;
+
+}
+
+div > p {
+   
+    background-color:rgba(0, 0, 0, 0.363) ;
+    padding-left: 20px;
+    
+    color: whitesmoke; 
+    line-height: 1.5em;
+    max-width: 400px;
+    display:block;
+ }
+main > p {
+    padding-left: 20px;
+    display:block;
+    max-width: 400px;
+    
+    
+    
     
 }
-.d01 {
-    background-color: rgba(0, 0, 0, 0.952);
+footer {
+    background-color: black;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    padding: 0.1px 0.3px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
 }
