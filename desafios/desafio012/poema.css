@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
+
+body {
+  text-rendering: auto;
+}
 main{
     font-family: 'itim';
     margin: auto;
@@ -22,9 +26,7 @@ h1::first-letter {
     font-size: 3em;
     
 }
-h1 {
-   
-}
+
 header > p {
     font-size: 0.8em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
