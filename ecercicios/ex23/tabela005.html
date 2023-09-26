@@ -24,19 +24,39 @@
         th, td {
             border: 1px solid black;
             padding: 8px;
+        } 
+        .cnome {
+            background-color: green;
+        }
+        col.cgrupo {
+            background-color: gray;
+        }
+        .amarelo {
+            background-color:yellow;
+
+        }
+        .vermelho {
+            background-color: red;
+
         }
     </style>
 </head>
 <body>
     <h1>Exercicio de Tabela</h1>
     <table>
+        <colgroup>
+       <col class="vermelho" span="2">
+       <col class="amarelo" span="2" >
+      
+       
+    </colgroup>
         <caption>Cadastro</caption>
         <tr>
-           <th>Nome</th>
-           <th>Sexo</th>
-           <th>Idade</th>
-           <th>Profissao</th>
-           <tr>
+           <th scope="col">Nome</th>
+           <th scope="col">Sexo</th>
+           <th scope="col">Idade</th>
+           <th scope="col">Profissao</th>
+           <tr  class="destaque">
             <td>Ana Maria</td>
             <td>F</td>
              <td>25</td>
@@ -48,8 +68,8 @@
             <td>28</td>
             <td>Programador</td>
            </tr>
-           <tr>
-            <td>Gustavo</td>
+           <tr >
+            <td >Gustavo</td>
             <td>M</td>
             <td>42</td>
             <td>Professor</td>
