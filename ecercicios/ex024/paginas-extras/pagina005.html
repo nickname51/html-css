@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScripts</title>
+    <style>
+        body {
+            background-color: rgb(119, 119, 202);
+        }
+    </style>
 </head>
 <body>
-    <a href="#" onclick="clicou">Clique em mim</a>
+    <a href="#" onclick="n()">Clique em mim</a>
     <div id="saida"></div>
-    
 
+    <script>
+        function n() {
+           
+           let s = window.document.getElementById("saida")
+            s.innerHTML += '<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita error nostrum exercitationem recusandae sequi laborum qui facere modi suscipit voluptatibus. Sed, neque. Repudiandae reiciendis dolor</p>' 
+        }
     
+    </script>
 </body>
-<script>
-    function clicou() {
-        s = window.document.getElementById("saida")
-        s.innerHTML += '<p>Voce Clicou</p>'
-    }
-
-</script>
 </html>
