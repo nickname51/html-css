@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+              <form action="cadastro.php" method="get" autocomplete="on">
+                <p>
+
+                    <label for="inum">Numero:</label>
+                    <input type="range" name="num" id="inum"  value="5" min="0" max="10"oninput="document.getElementById('ival').innerHTML = Number(inum.value)">
+                    <output id="ival">5</output>
+                </p>
+
+
+
+
+              </form>
+   
+    
+</body>
+</html>
