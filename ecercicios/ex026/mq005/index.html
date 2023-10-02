@@ -6,9 +6,10 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="media-query.css">
 
 </head>
-<body>
+<body onresize="tamanho()">
     <header>
        
           <h1>Meu site</h1>
@@ -31,11 +32,11 @@
         <article>
             <h2>Testando Media Queries</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iste assumenda doloribus sit ducimus, perspiciatis cumque quae delectus laudantium necessitatibus consequuntur officiis voluptates atque incidunt provident reprehenderit praesentium repellat. Doloremque. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iste assumenda doloribus sit ducimus, perspiciatis cumque quae delectus laudantium necessitatibus consequuntur officiis voluptates atque incidunt provident reprehenderit praesentium repellat. Doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ea temporibus facere aliquid rem, tempora quos sunt maxime. Eum quidem cum consequatur iste perspiciatis natus non soluta pariatur, laborum placeat. </p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iste assumenda doloribus sit ducimus, perspiciatis cumque quae delectus laudantium necessitatibus consequuntur officiis voluptates atque incidunt provident reprehenderit praesentium repellat. Doloremque. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iste assumenda doloribus sit ducimus, perspiciatis cumque quae delectus laudantium necessitatibus consequuntur officiis voluptates atque incidunt provident reprehenderit praesentium repellat. Doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati beatae aliquid, impedit voluptas accusantium ad necessitatibus deleniti consequatur explicabo dolorem, id cumque atque, porro voluptatum! Accusamus eveniet est facilis ab! </p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iste assumenda doloribus sit ducimus, perspiciatis cumque quae delectus laudantium necessitatibus consequuntur officiis voluptates atque incidunt provident reprehenderit praesentium repellat. Doloremque. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iste assumenda doloribus sit ducimus, perspiciatis cumque quae delectus laudantium necessitatibus consequuntur officiis voluptates atque incidunt provident reprehenderit praesentium repellat. Doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iste necessitatibus repudiandae sequi eligendi provident pariatur veritatis tempora quos voluptate ab, odit rerum eum officiis! Dicta odit odio atque doloribus? </p>
 
         </article>
     </main>
@@ -48,6 +49,16 @@
            else {
             itens.style.display = "block"
            }
+        }
+
+
+        function tamanho() {
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }
+            else {
+                itens.display.block = 'none'
+            }
         }
     </script>
 </body>
